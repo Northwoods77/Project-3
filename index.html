@@ -25,7 +25,7 @@
 
                 <label for="email" id="label_email">Email Address</label><input type="email" id="email" name="user_email" placeholder="Required" required><br><br>
 
-                <label for="phone" id="label_phone">Phone Number</label><input type="number" id="phone" name="user_phone" placeholder="Enter phone number"><br><br>
+                <label for="phone" id="label_phone">Phone Number</label><input type="text" id="phone" name="user_phone" placeholder="Enter phone number"><br><br>
 
                 <label for="address" id="label_address">Street Address</label><input type="text" id="address" name="user_address" placeholder="Enter street address"><br><br>
 
@@ -85,20 +85,20 @@
                     <option value="WY">Wyoming</option>
                 </select><br><br>
 
-                <label for="zip" id="label_zip">Zip Code</label><input type="number" id=zip name="user_zip" placeholder="Enter zip code"><br><br>
+                <label for="zip" id="label_zip">Zip Code</label><input type="text" id=zip name="user_zip" placeholder="Enter zip code"><br><br>
                 
             </fieldset>
             
             <fieldset id="fieldset2">
                 <legend>Newsletter</legend>
-                <label>Select the newsletters you would like to recieve</label><br>
-                <input type="checkbox" id="html_news" value="html_news" name="html_news"><label>HTML News</label><br>
-                <input type="checkbox" id="css_news" value="css_news" name="css_news"><label>CSS News</label><br>
-                <input type="checkbox" id="javascript_news" value="javascript_news" name="javascript_news"><label>Javascript News</label><br>
+                <h3>Select the newsletters you would like to recieve</h3>
+                <input type="checkbox" id="html_news" value="html_news" name="html_news"><label for="html_news">HTML News</label><br>
+                <input type="checkbox" id="css_news" value="css_news" name="css_news"><label for="css_news">CSS News</label><br>
+                <input type="checkbox" id="javascript_news" value="javascript_news" name="javascript_news"><label for="javascript_news">Javascript News</label><br>
                 <input type="checkbox" id="give_news" value="give_news" name="give_news">
-                <label>Giving Dan Money News</label><br><br>
+                <label for="give_news">Giving Dan Money News</label><br><br>
 
-                <label>Newsletter format</label><br>
+                <h3>Newsletter format</h3>
                 <input type="radio" id="html" value="html" name="choice"><label for="html">HTML</label><br>
                 <input type="radio" id="plain" value="choice" name="choice"><label for="plain">Plain text</label><br><br>
 
